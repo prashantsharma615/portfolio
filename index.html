@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pallavi Gupta | MBA & AI Certified Professional | Social Media & Web Developer</title>
+  <meta name="description" content="Portfolio of Pallavi Gupta - MBA & AI Certified Professional, Social Media Strategist, and Modern Web Developer blending strategic growth with intelligent tech.">
+  
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Ambient Glow Effects in Background -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <!-- Header & Glassmorphism Navbar -->
+  <header class="header" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-accent">&lt;</span>Pallavi<span class="gradient-text">.Gupta</span><span class="logo-accent">/&gt;</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About & Qualifications</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#portfolio" class="nav-link">Featured Work</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link btn-nav">Connect</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle Navigation Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-pill">
+            <span class="badge-dot"></span>
+            <span>Available for Strategic Projects & Consulting</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Pallavi Gupta</span>
+          </h1>
+
+          <div class="typing-container">
+            <span class="typing-prefix">I am an </span>
+            <span class="dynamic-typing" id="typed-text"></span>
+            <span class="cursor">&nbsp;</span>
+          </div>
+
+          <p class="hero-tagline">
+            Bridging the synergy between high-impact <strong>MBA business acumen</strong> and modern <strong>AI-driven technology</strong> to architect growth-centric websites, viral brand narratives, and data-backed digital marketing.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#contact" class="btn btn-primary">
+              <span>Get in Touch</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#portfolio" class="btn btn-secondary">
+              <span>View Work</span>
+              <i class="fa-solid fa-layer-group"></i>
+            </a>
+          </div>
+
+          <!-- Quick Stats / Highlights -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">MBA</span>
+              <span class="stat-label">Business Strategy</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">AI</span>
+              <span class="stat-label">Certified Specialist</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Client Focused</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="avatar-glow-wrapper">
+            <div class="avatar-border-glow"></div>
+            <div class="avatar-card glass-panel">
+              <img src="assets/images/pallavi-gupta.jpg" alt="Pallavi Gupta - MBA & AI Certified Professional" class="avatar-img" />
+              <div class="floating-badge badge-top-right">
+                <i class="fa-solid fa-brain"></i>
+                <div>
+                  <small>Specialization</small>
+                  <strong>AI & Automation</strong>
+                </div>
+              </div>
+              <div class="floating-badge badge-bottom-left">
+                <i class="fa-solid fa-chart-line"></i>
+                <div>
+                  <small>Strategy</small>
+                  <strong>MBA Growth Engine</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. About Me / Qualifications Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Who I Am</span>
+          <h2 class="section-title">Strategic Mind. <span class="gradient-text">Technological Edge.</span></h2>
+          <p class="section-desc">
+            Combining analytical leadership with modern development and machine intelligence to engineer transformative digital experiences.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Main Narrative Card -->
+          <div class="glass-card about-intro-card">
+            <div class="card-icon-header">
+              <i class="fa-solid fa-quote-left"></i>
+            </div>
+            <h3>The Convergence of Business & Technology</h3>
+            <p>
+              In today's fast-evolving digital realm, creating a website or running social campaigns isn't just about aesthetics—it's about measurable business ROI, customer psychology, and automated efficiency.
+            </p>
+            <p>
+              With my <strong>Master of Business Administration (MBA)</strong>, I analyze markets, dissect audience behaviour, and develop brand architectures that stand out. Complemented by rigorous <strong>Artificial Intelligence (AI) Certification</strong> and hands-on web engineering, I build digital ecosystems powered by modern automation, rapid loading speeds, and immersive visual storytelling.
+            </p>
+            <div class="signature-tag">
+              <span>Pallavi Gupta</span> &bull; <em>Innovator, Strategist & Creator</em>
+            </div>
+          </div>
+
+          <!-- Dual Strength Showcase -->
+          <div class="strengths-wrapper">
+            <!-- Strength 1: MBA -->
+            <div class="glass-card strength-card">
+              <div class="strength-icon icon-mba">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+              <div class="strength-content">
+                <span class="tag-badge">Master of Business Administration</span>
+                <h4>Strategic Business Growth</h4>
+                <p>
+                  Specialized in brand positioning, competitive market research, customer conversion funnels, and data-driven marketing decisions that optimize ROI.
+                </p>
+                <ul class="strength-features">
+                  <li><i class="fa-regular fa-circle-check"></i> Market Analysis & Strategy</li>
+                  <li><i class="fa-regular fa-circle-check"></i> Conversion Rate Optimization (CRO)</li>
+                  <li><i class="fa-regular fa-circle-check"></i> Brand Identity & Positioning</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Strength 2: AI & Web Dev -->
+            <div class="glass-card strength-card">
+              <div class="strength-icon icon-ai">
+                <i class="fa-solid fa-microchip"></i>
+              </div>
+              <div class="strength-content">
+                <span class="tag-badge">AI Certification & Tech Expertise</span>
+                <h4>Cutting-Edge Tech Execution</h4>
+                <p>
+                  Certified in modern Artificial Intelligence paradigms, leveraging automated workflows, intelligent content synthesis, and high-performance web development.
+                </p>
+                <ul class="strength-features">
+                  <li><i class="fa-regular fa-circle-check"></i> AI Content & Analytics Integration</li>
+                  <li><i class="fa-regular fa-circle-check"></i> Responsive, Modern Web Architecture</li>
+                  <li><i class="fa-regular fa-circle-check"></i> Workflow & Social Automation</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Services & Expertise Section -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">What I Deliver</span>
+          <h2 class="section-title">Specialized Services & <span class="gradient-text">Capabilities</span></h2>
+          <p class="section-desc">
+            Comprehensive solutions tailored for high-growth brands, startups, and visionary entrepreneurs.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-card glass-card">
+            <div class="service-icon-box">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="service-number">01</div>
+            <h3 class="service-title">Social Media Management & Growth</h3>
+            <p class="service-text">
+              End-to-end content curation, viral reel scripting, community engagement, and algorithmic optimization to turn passive scrollers into passionate brand advocates.
+            </p>
+            <div class="service-tags">
+              <span>Viral Hooks</span>
+              <span>Reels & Carousels</span>
+              <span>Audience Growth</span>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card glass-card">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="service-number">02</div>
+            <h3 class="service-title">Custom Website Development</h3>
+            <p class="service-text">
+              High-speed, responsive, and aesthetically stunning web applications designed with modern HTML5/CSS3/JavaScript, glassmorphic UI, and seamless mobile interactions.
+            </p>
+            <div class="service-tags">
+              <span>Custom Code</span>
+              <span>UI/UX Design</span>
+              <span>Fast Load Speed</span>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card glass-card">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+            <div class="service-number">03</div>
+            <h3 class="service-title">AI-Driven Digital Marketing</h3>
+            <p class="service-text">
+              Supercharging marketing campaigns with artificial intelligence: predictive analytics, AI-crafted personalized copy, audience segmentation, and automation scripts.
+            </p>
+            <div class="service-tags">
+              <span>AI Content</span>
+              <span>Prompt Engineering</span>
+              <span>Marketing Automation</span>
+            </div>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card glass-card">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-chess-knight"></i>
+            </div>
+            <div class="service-number">04</div>
+            <h3 class="service-title">Brand & Business Strategy</h3>
+            <p class="service-text">
+              Harnessing core MBA methodologies to construct robust value propositions, sustainable go-to-market roadmaps, and competitive differentiators for brands.
+            </p>
+            <div class="service-tags">
+              <span>MBA Frameworks</span>
+              <span>Brand Architecture</span>
+              <span>ROI Maximization</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Portfolio / Featured Work Section -->
+    <section class="section portfolio-section" id="portfolio">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Portfolio Showcase</span>
+          <h2 class="section-title">Selected Projects & <span class="gradient-text">Case Studies</span></h2>
+          <p class="section-desc">
+            Explore recent digital campaigns, business dashboards, and custom web builds delivering tangible results.
+          </p>
+
+          <!-- Filter Tabs -->
+          <div class="portfolio-filters" id="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">All Work</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="social">Social Media</button>
+            <button class="filter-btn" data-filter="ai">AI & Strategy</button>
+          </div>
+        </div>
+
+        <div class="portfolio-grid" id="portfolio-grid">
+          <!-- Project 1: Soado Dashboard -->
+          <div class="portfolio-card glass-card" data-category="web">
+            <div class="portfolio-thumbnail">
+              <div class="project-mockup mockup-dashboard">
+                <div class="mockup-header">
+                  <span class="circle red"></span>
+                  <span class="circle yellow"></span>
+                  <span class="circle green"></span>
+                  <span class="mockup-tab">soado.analytics/live</span>
+                </div>
+                <div class="mockup-body">
+                  <div class="mini-kpi-row">
+                    <div class="mini-kpi"><span>+142%</span><small>Growth</small></div>
+                    <div class="mini-kpi"><span>4.9x</span><small>ROAS</small></div>
+                    <div class="mini-kpi"><span>28.4K</span><small>Users</small></div>
+                  </div>
+                  <div class="mini-chart">
+                    <div class="bar bar-1"></div>
+                    <div class="bar bar-2"></div>
+                    <div class="bar bar-3"></div>
+                    <div class="bar bar-4"></div>
+                    <div class="bar bar-5"></div>
+                    <div class="bar bar-6"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-overlay">
+                <span class="overlay-badge">Web Application</span>
+                <p>Interactive business analytics dashboard delivering real-time metrics & KPI intelligence.</p>
+                <div class="overlay-links">
+                  <a href="#contact" class="overlay-btn"><i class="fa-solid fa-eye"></i> View Case Study</a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <div class="project-cat">Web & Analytics</div>
+              <h3 class="project-title">Soado Business Intelligence Dashboard</h3>
+              <p class="project-summary">High-performance responsive dashboard built with modern glassmorphism, dynamic charts, and automated business KPI tracking.</p>
+              <div class="project-tags">
+                <span>UI/UX</span>
+                <span>JavaScript</span>
+                <span>Data Analytics</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Social Media Scale Campaign -->
+          <div class="portfolio-card glass-card" data-category="social">
+            <div class="portfolio-thumbnail">
+              <div class="project-mockup mockup-social">
+                <div class="social-header">
+                  <i class="fa-brands fa-instagram"></i>
+                  <span>@socialmediahandlewithpallavi</span>
+                </div>
+                <div class="social-post-preview">
+                  <div class="post-glow-box">
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                    <span>Viral Reel Framework: +250K Organic Views</span>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-overlay">
+                <span class="overlay-badge">Social Growth</span>
+                <p>Viral Instagram content series resulting in 4.8x follower growth and high conversion.</p>
+                <div class="overlay-links">
+                  <a href="https://instagram.com/socialmediahandlewithpallavi" target="_blank" rel="noopener" class="overlay-btn"><i class="fa-brands fa-instagram"></i> Visit Instagram</a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <div class="project-cat">Social Media Strategy</div>
+              <h3 class="project-title">Organic Social Scaling System</h3>
+              <p class="project-summary">Complete content architecture, viral hook formulation, and algorithmic cadence for brand visibility and audience conversion.</p>
+              <div class="project-tags">
+                <span>Content Funnels</span>
+                <span>Reels Strategy</span>
+                <span>Organic Reach</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: AI-Driven Campaign Automation -->
+          <div class="portfolio-card glass-card" data-category="ai">
+            <div class="portfolio-thumbnail">
+              <div class="project-mockup mockup-ai">
+                <div class="ai-node-circle">
+                  <i class="fa-solid fa-robot"></i>
+                </div>
+                <div class="ai-stream-lines">
+                  <div class="stream-line"></div>
+                  <div class="stream-line"></div>
+                  <div class="stream-line"></div>
+                </div>
+              </div>
+              <div class="portfolio-overlay">
+                <span class="overlay-badge">AI Automation</span>
+                <p>Algorithmic ad copy generator and audience segmentation pipeline powered by AI.</p>
+                <div class="overlay-links">
+                  <a href="#contact" class="overlay-btn"><i class="fa-solid fa-sparkles"></i> Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <div class="project-cat">AI & Digital Marketing</div>
+              <h3 class="project-title">Smart Content Synthesis Engine</h3>
+              <p class="project-summary">Custom prompt workflows and AI synthesis pipeline slashing copy turnaround times by 70% while elevating engagement rates.</p>
+              <div class="project-tags">
+                <span>AI Certification</span>
+                <span>Prompt Ops</span>
+                <span>Marketing ROI</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: Modern Portfolio & Brand Experience -->
+          <div class="portfolio-card glass-card" data-category="web">
+            <div class="portfolio-thumbnail">
+              <div class="project-mockup mockup-portfolio">
+                <div class="mockup-header">
+                  <span class="circle red"></span>
+                  <span class="circle yellow"></span>
+                  <span class="circle green"></span>
+                  <span class="mockup-tab">pallavigupta.dev</span>
+                </div>
+                <div class="mockup-content-art">
+                  <span class="accent-art">&lt;Modern Glassmorphism&gt;</span>
+                </div>
+              </div>
+              <div class="portfolio-overlay">
+                <span class="overlay-badge">Web Architecture</span>
+                <p>Personal brand portal with dark mode aesthetics, fluid responsiveness, and interactive micro-interactions.</p>
+                <div class="overlay-links">
+                  <a href="#hero" class="overlay-btn"><i class="fa-solid fa-house"></i> View Live Site</a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <div class="project-cat">Frontend Development</div>
+              <h3 class="project-title">Interactive Brand Portal & Digital Resume</h3>
+              <p class="project-summary">Handcrafted with pure HTML5, vanilla CSS3 gradients, and lightweight JavaScript for blazing fast performance and high visual impact.</p>
+              <div class="project-tags">
+                <span>CSS3 Variables</span>
+                <span>Vanilla JS</span>
+                <span>Dark Mode</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Let's Collaborate</span>
+          <h2 class="section-title">Ready to Elevate Your <span class="gradient-text">Digital Presence?</span></h2>
+          <p class="section-desc">
+            Whether you need a full website built, an aggressive social media growth strategy, or AI-powered marketing, let's connect and make it happen.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Direct Details / Badges -->
+          <div class="contact-info-column">
+            <h3 class="info-column-title">Direct Channels</h3>
+            <p class="info-column-desc">
+              Feel free to reach out directly through any of these platforms. I typically respond within a few hours.
+            </p>
+
+            <div class="contact-cards-list">
+              <!-- Email Badge -->
+              <a href="mailto:pallavisharma204@gmail.com" class="contact-card-badge glass-card">
+                <div class="badge-icon icon-mail">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="badge-content">
+                  <span class="badge-label">Send an Email</span>
+                  <span class="badge-val">pallavisharma204@gmail.com</span>
+                </div>
+                <div class="badge-arrow">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+              </a>
+
+              <!-- Phone / WhatsApp Badge -->
+              <a href="tel:+917006181540" class="contact-card-badge glass-card">
+                <div class="badge-icon icon-phone">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="badge-content">
+                  <span class="badge-label">Direct Call / WhatsApp</span>
+                  <span class="badge-val">+91 7006181540</span>
+                </div>
+                <div class="badge-arrow">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+              </a>
+
+              <!-- Instagram Badge -->
+              <a href="https://instagram.com/socialmediahandlewithpallavi" target="_blank" rel="noopener" class="contact-card-badge glass-card">
+                <div class="badge-icon icon-instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="badge-content">
+                  <span class="badge-label">Follow on Instagram</span>
+                  <span class="badge-val">@socialmediahandlewithpallavi</span>
+                </div>
+                <div class="badge-arrow">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+              </a>
+            </div>
+
+            <!-- Trust / Quick Facts -->
+            <div class="quick-facts glass-card">
+              <div class="fact-item">
+                <i class="fa-solid fa-bolt-lightning gradient-text"></i>
+                <span>Fast response & clear communication</span>
+              </div>
+              <div class="fact-item">
+                <i class="fa-solid fa-shield-halved gradient-text"></i>
+                <span>Data-driven strategies backed by MBA frameworks</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-column">
+            <div class="glass-card form-wrapper">
+              <h3 class="form-title">Send a Message</h3>
+              <p class="form-desc">Fill out the form below and I'll get back to you promptly.</p>
+
+              <form id="contactForm" novalidate>
+                <div class="form-group">
+                  <label for="name">Your Name <span class="required">*</span></label>
+                  <div class="input-container">
+                    <i class="fa-regular fa-user input-icon"></i>
+                    <input type="text" id="name" name="name" placeholder="e.g. Rahul Verma" required>
+                  </div>
+                  <span class="error-msg" id="nameError"></span>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="email">Email Address <span class="required">*</span></label>
+                    <div class="input-container">
+                      <i class="fa-regular fa-envelope input-icon"></i>
+                      <input type="email" id="email" name="email" placeholder="name@example.com" required>
+                    </div>
+                    <span class="error-msg" id="emailError"></span>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="phone">Phone / WhatsApp</label>
+                    <div class="input-container">
+                      <i class="fa-solid fa-mobile-screen-button input-icon"></i>
+                      <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX">
+                    </div>
+                    <span class="error-msg" id="phoneError"></span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="service">Interested Service <span class="required">*</span></label>
+                  <div class="input-container">
+                    <i class="fa-solid fa-briefcase input-icon"></i>
+                    <select id="service" name="service" required>
+                      <option value="" disabled selected>Select a Service</option>
+                      <option value="Social Media Growth">Social Media Management & Growth</option>
+                      <option value="Website Development">Custom Website Development</option>
+                      <option value="AI Digital Marketing">AI-Driven Digital Marketing</option>
+                      <option value="Brand Strategy">Brand & Business Strategy</option>
+                      <option value="All In One Consultation">Comprehensive Growth Consultation</option>
+                    </select>
+                  </div>
+                  <span class="error-msg" id="serviceError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Your Message / Project Goals <span class="required">*</span></label>
+                  <div class="input-container textarea-container">
+                    <i class="fa-regular fa-comment-dots input-icon"></i>
+                    <textarea id="message" name="message" rows="4" placeholder="Tell me about your business goals, vision, or project requirements..." required></textarea>
+                  </div>
+                  <span class="error-msg" id="messageError"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                  <span>Send Message</span>
+                  <i class="fa-solid fa-paper-plane"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Success Notification Modal / Toast -->
+  <div class="modal-backdrop" id="successModal">
+    <div class="modal-card glass-panel">
+      <div class="modal-icon">
+        <i class="fa-solid fa-circle-check"></i>
+      </div>
+      <h3 class="modal-title">Thank You, <span id="modalClientName">Friend</span>!</h3>
+      <p class="modal-desc" id="modalMessage">
+        Your message has been received successfully. I will review your project details and reach out to you within 24 hours.
+      </p>
+      <button class="btn btn-primary" id="closeModalBtn">Got it, thanks!</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <div class="footer-logo">
+          <span class="logo-accent">&lt;</span>Pallavi<span class="gradient-text">.Gupta</span><span class="logo-accent">/&gt;</span>
+        </div>
+        <p class="footer-motto">
+          Where MBA strategy meets Artificial Intelligence and modern web craftsmanship.
+        </p>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://instagram.com/socialmediahandlewithpallavi" target="_blank" rel="noopener" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="mailto:pallavisharma204@gmail.com" aria-label="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="tel:+917006181540" aria-label="Phone">
+          <i class="fa-solid fa-phone"></i>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Pallavi Gupta. All Rights Reserved. Crafted with precision & passion.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
